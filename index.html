@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
     <title>Emmanuel Akpe || Bringing your ideas to life</title>
     <link
       rel="icon"
@@ -83,12 +84,12 @@
           <h2>Emmanuel Akpe</h2>
           <p>Software Design | UI/UX | Research</p>
           <div class="intro__btn">
-            <div class="cta">
-              <a href="#contact" class="btn">Hire me</a>
-            </div>
-            <div class="cta">
-              <a href="#portfolio" class="btn">My Projects</a>
-            </div>
+            <a href="#contact" class="mx-3"
+              ><button class="hero__button">Contact Me</button></a
+            >
+            <a href="#portfolio"
+              ><button class="hero__button">My projects</button></a
+            >
           </div>
         </div>
         <div
@@ -368,112 +369,114 @@
       <!-- @@@@@@@@@@@@@ Experience Section @@@@@@@@@@@@ -->
 
       <!-- @@@@@@@@@@@@@ Portfolio Section @@@@@@@@@@@@ -->
-      <section id="portfolio" class="portfolio container">
-        <div class="portfolio__heading">
-          <span></span>
-          recent works
-          <span></span>
-        </div>
-        <div class="portfolio__wrapper">
-          <div class="gallery">
-            <div class="gallery__item gallery__item--1">
-              <a
-                href="http://echurn-predictor.herokuapp.com/"
-                target="_blank"
-                class="gallery__link"
-              >
-                <img
-                  src="./assets/images/portfolio/churn.jfif"
-                  class="gallery__image"
-                />
-                <div class="gallery__overlay">
-                  <span>Churn Predictor</span>
-                </div>
-              </a>
-            </div>
-            <div class="gallery__item gallery__item--2">
-              <a
-                href="https://cred-copycat.herokuapp.com/"
-                target="_blank"
-                class="gallery__link"
-              >
-                <img
-                  src="./assets/images/portfolio/cred.jpg"
-                  class="gallery__image"
-                />
-                <div class="gallery__overlay">
-                  <span>Cred Page</span>
-                </div>
-              </a>
-            </div>
-            <div class="gallery__item gallery__item--3">
-              <a
-                href="http://ads-studio.herokuapp.com/"
-                target="_blank"
-                class="gallery__link"
-              >
-                <img
-                  src="./assets/images/portfolio/justclick.jpg"
-                  class="gallery__image"
-                />
-                <div class="gallery__overlay">
-                  <span>justclick AI</span>
-                </div>
-              </a>
-            </div>
-            <div class="gallery__item gallery__item--4">
-              <a
-                href="https://github.com/emmanuelAkpe/mern-eshop"
-                target="_blank"
-                class="gallery__link"
-              >
-                <img
-                  src="./assets/images/portfolio/ecoomerce.jpg"
-                  class="gallery__image"
-                />
-                <div class="gallery__overlay">
-                  <span>Shop</span>
-                </div>
-              </a>
-            </div>
-            <div class="gallery__item gallery__item--5">
-              <a
-                href="https://chatme-f6566.web.app/"
-                target="_blank"
-                class="gallery__link"
-              >
-                <img
-                  src="./assets/images/portfolio/chat.jpg"
-                  class="gallery__image"
-                />
-                <div class="gallery__overlay">
-                  <span>ChatMe</span>
-                </div>
-              </a>
-            </div>
-            <div class="gallery__item gallery__item--6">
-              <a
-                href="https://github.com/emmanuelAkpe/blog-post"
-                target="_blank"
-                class="gallery__link"
-              >
-                <img
-                  src="./assets/images/portfolio/blog.jpg"
-                  class="gallery__image"
-                />
-                <div class="gallery__overlay">
-                  <span>Blog</span>
-                </div>
-              </a>
+      <div class="projects" id="portfolio">
+        <h1 class="projectsTitle">Here are some of my projects</h1>
+
+        <div class="project">
+          <div class="laptop project__img1">
+            <img src="./assets/images/portfolio/laptop.png" alt="" />
+            <div class="laptopScreen">
+              <img
+                src="./assets/images/portfolio/cred.png"
+                alt=""
+                class="laptopApp"
+              />
             </div>
           </div>
+          <div class="projectDetail project__detail1">
+            <h1 class="projectTitle">Cred website</h1>
+            <p class="projectDesc">
+              The public website for cred.built with react, html, css
+            </p>
+            <a
+              href="https://cred-copycat.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><button class="projectButton">Learn More</button></a
+            >
+          </div>
         </div>
-      </section>
+        <div class="project">
+          <div class="laptop project__img2">
+            <img src="./assets/images/portfolio/laptop.png" alt="" />
+            <div class="laptopScreen">
+              <img
+                src="./assets/images/portfolio/churn.png"
+                alt=""
+                class="laptopApp"
+              />
+            </div>
+          </div>
+          <div class="projectDetail project__detail2">
+            <h1 class="projectTitle">Churn Predictor</h1>
+            <p class="projectDesc">
+              Predicts whether an employee of a firm will quit or not. Created
+              with python, streamlit, css, html
+            </p>
+            <a
+              href="http://echurn-predictor.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><button class="projectButton">Learn More</button></a
+            >
+          </div>
+        </div>
+        <div class="project">
+          <div class="laptop project__img3">
+            <img src="./assets/images/portfolio/laptop.png" alt="" />
+            <div class="laptopScreen">
+              <img
+                src="./assets/images/portfolio/justclick.png"
+                alt=""
+                class="laptopApp"
+              />
+            </div>
+          </div>
+          <div class="projectDetail project__detail3">
+            <h1 class="projectTitle">JustClick</h1>
+            <p class="projectDesc">
+              A machine learning App designed to help you automate the machine
+              learning tasks and also to save time. Created with python,
+              stramlit, html, css
+            </p>
+            <a
+              href="http://ads-studio.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><button class="projectButton">Learn More</button></a
+            >
+          </div>
+        </div>
+        <div class="project" id="portfolio">
+          <div class="laptop project__img4">
+            <img src="./assets/images/portfolio/laptop.png" alt="" />
+            <div class="laptopScreen">
+              <img
+                src="./assets/images/portfolio/chat.png"
+                alt=""
+                class="laptopApp"
+              />
+            </div>
+          </div>
+          <div class="projectDetail project__detail4">
+            <h1 class="projectTitle">Chat Me</h1>
+            <p class="projectDesc">
+              The public website for the chatme app.built with react, html, css
+            </p>
+            <a
+              href="https://chatme-f6566.web.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><button class="projectButton">Learn More</button></a
+            >
+          </div>
+        </div>
+      </div>
       <!-- @@@@@@@@@@@@@ Portfolio Section @@@@@@@@@@@@ -->
       <!-- @@@@@@@@@@@@@ Contact Section @@@@@@@@@@@@ -->
       <section
         id="contact"
-        class="contact container d-flex flex-column justify-content-center"
+        class="contact container d-flex flex-column justify-content-center align-items-center"
       >
         <div class="portfolio__heading">
           <span></span>
@@ -483,55 +486,10 @@
         <p class="text-center">
           Kindly send me a message and I’ll get back to you ASAP!
         </p>
-        <div class="d-grid gap-5">
-          <div class="row d-flex justify-content-center align-content-center">
-            <div class="col-lg-6 d-none d-lg-block">
-              <img
-                src="./assets/images/portfolio/contact.svg"
-                alt=""
-                class="img-fluid w-75"
-              />
-            </div>
 
-            <form
-              class="col-lg-6 col-12 pt-3"
-              action="https://formsubmit.co/el/luhiza"
-              method="POST"
-            >
-              <div class="mb-3">
-                <input
-                  type="text"
-                  name="name"
-                  class="form-control w-100"
-                  id="name"
-                  placeholder="enter your name"
-                  required
-                />
-              </div>
-              <div class="mb-3">
-                <input
-                  type="email"
-                  name="email"
-                  class="form-control w-100"
-                  id="email"
-                  placeholder="name@example.com"
-                  required
-                />
-              </div>
-              <div class="mb-3">
-                <textarea
-                  class="form-control"
-                  name="message"
-                  id="message"
-                  rows="3"
-                  placeholder="your message"
-                  required
-                ></textarea>
-              </div>
-              <button type="submit" class="btn">Send</button>
-            </form>
-          </div>
-        </div>
+        <a href="mailto:emmanuelakpe@meltwater.org">
+          <button class="btn btn-lg">send Message</button></a
+        >
       </section>
       <!-- @@@@@@@@@@@@@ Contact Section @@@@@@@@@@@@ -->
 
@@ -600,6 +558,14 @@
       sr.reveal('.process__img2', { delay: 600, origin: 'right' })
       sr.reveal('.title__C', { delay: 600, origin: 'bottom' })
       sr.reveal('.process__img3', { delay: 600, origin: 'left' })
+      sr.reveal('.project__img1', { delay: 200, origin: 'left' })
+      sr.reveal('.project__detail1', { delay: 200, origin: 'right' })
+      sr.reveal('.project__img2', { delay: 200, origin: 'right' })
+      sr.reveal('.project__detail2', { delay: 200, origin: 'left' })
+      sr.reveal('.project__img3', { delay: 200, origin: 'left' })
+      sr.reveal('.project__detail3', { delay: 200, origin: 'right' })
+      sr.reveal('.project__img4', { delay: 200, origin: 'right' })
+      sr.reveal('.project__detail4', { delay: 200, origin: 'left' })
     </script>
 
     <script
